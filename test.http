@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/questions
+Content-Type: application/json
+
+{"role": "Java Backend", "level": "Junior"}
+
+###
+
+POST http://localhost:8080/api/evaluate
+Content-Type: application/json
+
+{"question": "What is dependency injection?", "answer": "Spring gives objects their dependencies instead of creating them inside the class."}
